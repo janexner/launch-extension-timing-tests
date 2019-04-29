@@ -1,0 +1,58 @@
+{
+  "displayName": "Timings Test",
+  "name": "ags055-timings-test",
+  "platform": "web",
+  "version": "1.0.3",
+  "description": "Simple Extension to help test timing in Launch",
+  "author": {
+    "name": "Jan Exner"
+  },
+  "viewBasePath": "src/view/",
+  "main": "src/lib/main.js",
+  "events": [
+    {
+      "displayName": "Test Event Immediate",
+      "name": "test-event-immediate",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/events/testEventImmediate.js"
+    },
+    {
+      "displayName": "Test Event Delayed",
+      "name": "test-event-delayed",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/events/testEventDelayed.js"
+    }
+  ],
+  "conditions": [
+    {
+      "displayName": "Test Condition",
+      "name": "test-condition",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/conditions/testCondition.js"
+    }
+  ],
+  "actions": [
+    {
+      "displayName": "Test Action",
+      "name": "test-action",
+      "schema": {
+        "$schema": "http://json-schema.org/draft-04/schema#",
+        "type": "object",
+        "properties": {}
+      },
+      "libPath": "src/lib/actions/testAction.js"
+    }
+  ]
+}
