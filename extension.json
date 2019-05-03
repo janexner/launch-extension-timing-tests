@@ -2,7 +2,7 @@
   "displayName": "Timings Test",
   "name": "ags055-timings-test",
   "platform": "web",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple Extension to help test timing in Launch",
   "author": {
     "name": "Jan Exner"
