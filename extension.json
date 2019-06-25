@@ -2,7 +2,7 @@
   "displayName": "Timings Test",
   "name": "ags055-timings-test",
   "platform": "web",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Simple Extension to help test timing in Launch",
   "author": {
     "name": "Jan Exner"
@@ -54,5 +54,17 @@
       },
       "libPath": "src/lib/actions/testAction.js"
     }
+  ],
+  "dataElements": [
+      {
+          "displayName": "Test Data Element",
+          "name": "test-data-element",
+          "schema": {
+            "$schema": "http://json-schema.org/draft-04/schema#",
+            "type": "object",
+            "properties": {}
+          },
+          "libPath": "src/lib/dataElements/testDataElement.js"
+      }
   ]
 }
